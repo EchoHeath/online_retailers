@@ -1,0 +1,33 @@
+name: 'user-web'
+port: 8021
+
+nacos:
+  host: '192.168.2.22'
+  port: 8848
+  namespace: "879e532e-e836-4d9e-9c6f-f33f6a834206"
+  user: "nacos"
+  password: "nacos"
+  dataid: "user-web.json"
+  group: "pro"
+
+
+user_srv:
+  host: '192.168.2.22'
+  port: 50051
+  name: "user-srv"
+
+jwt:
+  key: 'bPjS$vY#ckm$gIzC0KV*Khn94TFqhxzh'
+
+sms:
+  key: "aaa"
+  secrect: "aaa"
+
+redis:
+  host: '127.0.0.1'
+  port: 6379
+  expire: 300
+
+consul:
+  host: '192.168.2.22'
+  port: 8500
