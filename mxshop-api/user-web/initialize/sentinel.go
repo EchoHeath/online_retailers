@@ -16,7 +16,7 @@ func Sentinel() {
 
 	_, err = flow.LoadRules([]*flow.Rule{
 		{
-			Resource:               "some-test2",
+			Resource:               "api",
 			TokenCalculateStrategy: flow.Direct,
 			ControlBehavior:        flow.Reject,
 			Threshold:              100,
